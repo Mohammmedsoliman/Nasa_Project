@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxies Of Dreams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;770&family=Oxanium:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function alert(){
+            swal("Sorry", "The video is not avilable", "error");
+        }
+    </script>
+</head>
+<body>
+   <div id="preloader">
+    <div class="box">
+        <img src="Assets/Preloader-logo.png" width="190px">
+        <div class="loader"></div>
+    </div>
+</div>
+
+</div>
+
+
+    <header>
+        <div class="logo">
+            <i class="fas fa-satellite"></i>
+            <span>Galaxies Of Dreams</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn-outline">Sign In</a></li>
+            </ul>
+        </nav>
+<label class="switch" id="theme-toggle">
+  <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+  <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+  <input type="checkbox" class="input">
+  <span class="slider"></span>
+</label>
+
+    </header>
+
+    <main>
+        <section class="hero-section new-hero-style">
+            <div class="hero-background-gradient"></div>
+            <div class="hero-content">
+                <h1>Your journey into the unknown begins now.</h1>
+                <p>Explore the depths of the universe and learn its secrets with the latest technology.</p>
+                <div class="hero-cta-buttons">
+                    <a href="#h" class="btn-primary">Start Discovering</a>
+                    <a href="#" class="btn-secondary" onclick="alert()">Watch video<i class="fas fa-play"></i></a>
+                </div>
+            </div>
+            <div class="hero-planet-overlay"></div>
+        </section>
+
+        <section class="mission-highlights-section" id="h">
+            <h2>Mission Highlights</h2>
+            <div class="mission-grid">
+                <div class="mission-item glass-effect">
+                    <div class="icon-wrapper"><i class="fas fa-robot"></i></div>
+                    <h3>Mars Rover Landing</h3>
+                    <span>20.8.2021</span>
+                </div>
+                <div class="mission-item glass-effect">
+                    <div class="icon-wrapper"><i class="fas fa-meteor"></i></div>
+                    <h3>Asteroid Sample Return</h3>
+                    <span>20.4.2023</span>
+                </div>
+                <div class="mission-item glass-effect">
+                    <div class="icon-wrapper"><i class="fas fa-rocket"></i></div>
+                    <h3>Deep Space Probe Launch</h3>
+                    <span>20.10.2017</span>
+                </div>
+                <div class="mission-item glass-effect">
+                    <div class="icon-wrapper"><i class="fas fa-satellite-dish"></i></div>
+                    <h3>Exoplanet Discovery</h3>
+                    <span>20.12.2024</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore-section">
+            <div class="explore-content-wrapper">
+                <div class="explore-text-column">
+                    <h2>Explore What You Can Do With Us</h2>
+                    <p>Dive deep into the cosmos with our cutting-edge technology. Our platform offers unparalleled access to high-resolution space imagery, allowing you to zoom in on distant galaxies, nebulae, and planetary surfaces with incredible detail. Powered by advanced data processing, we bring the universe closer to you than ever before.</p>
+                    <p>From scientific research to personal exploration, our tools provide a unique perspective. Analyze celestial bodies, track mission progress, and discover new wonders. Join a community of space enthusiasts and contribute to the ongoing exploration of the final frontier. The possibilities are as vast as the universe itself.</p>
+                    <a href="Pages/reciver.html" class="btn-primary">Start Deep Zooming <i class="fas fa-search-plus"></i></a>
+                </div>
+                <div class="explore-image-column glass-effect">
+                    <div id="openseadragon-viewer" class="openseadragon-viewer"></div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery-and-learn-section">
+            <div class="section-column">
+                <h2>GALLERY</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item glass-effect">
+                        <img src="https://via.placeholder.com/200x150/0D1E3F/FFFFFF?text=Nebula" alt="Nebula">
+                        <span>Cosmic Nebula</span>
+                        <p>20.6.2023</p>
+                    </div>
+                    <div class="gallery-item glass-effect">
+                        <img src="https://via.placeholder.com/200x150/0D1E3F/FFFFFF?text=Galaxy" alt="Galaxy">
+                        <span>Distant Galaxy</span>
+                        <p>20.4.2023</p>
+                    </div>
+                    <div class="gallery-item glass-effect">
+                        <img src="https://via.placeholder.com/200x150/0D1E3F/FFFFFF?text=Astronaut" alt="Astronaut">
+                        <span>Future Mission</span>
+                        <p>20.5.2023</p>
+                    </div>
+                    <div class="gallery-item glass-effect">
+                        <img src="https://via.placeholder.com/200x150/0D1E3F/FFFFFF?text=Planet" alt="Planet">
+                        <span>Alien Planet</span>
+                        <p>20.3.2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-column">
+                <h2>EXPLORE & LEARN</h2>
+                <div class="learn-grid">
+                    <div class="learn-item glass-effect">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Articles</h3>
+                        <p>Deep dives into space science.</p>
+                    </div>
+                    <div class="learn-item glass-effect">
+                        <i class="fas fa-video"></i>
+                        <h3>Videos</h3>
+                        <p>Stunning visuals of the cosmos.</p>
+                    </div>
+                    <div class="learn-item glass-effect">
+                        <i class="fas fa-globe"></i>
+                        <h3>Interactive Maps</h3>
+                        <p>Navigate through galaxies.</p>
+                    </div>
+                    <div class="learn-item glass-effect">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Events</h3>
+                        <p>Upcoming space events and launches.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="join-us-section">
+            <div class="newsletter-content">
+                <h2>JOIN US</h2>
+                <p>Stay connected with the latest cosmic updates!</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SPACE. All rights reserved.</p>
+    </footer>
+
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/theme-changer.js"></script>
+        
+    
+</body>
+</html>
