@@ -1,4 +1,4 @@
-# 🌌 Galaxies Of Dreams – NASA Project 2025
+# 🌌 Galaxies Of Dreams – NASA global nominee Project 2025 by ENG/ Mohamed soliman
 
 ## 🛰️ Overview
 **Galaxies Of Dreams** is an interactive, web-based platform designed to make NASA’s massive high-resolution and multi-gigapixel imagery accessible to everyone. NASA missions such as Hubble and James Webb produce enormous datasets that are often difficult for both the public and scientists to explore using existing tools.  
