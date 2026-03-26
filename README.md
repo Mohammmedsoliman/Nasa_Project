@@ -1,4 +1,4 @@
-# 🌌 Galaxies Of Dreams – NASA global nominee Project 2026
+# 🌌 Galaxies Of Dreams – NASA global nominee Project 2025-2026
 by ENG/ Mohamed soliman
 
 ## 🛰️ Overview
